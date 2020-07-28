@@ -1,3 +1,3 @@
 # sbpl-with-multiresolution
 
-some files yet to be uploaded
+Read Planning project report for details
