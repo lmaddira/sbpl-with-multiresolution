@@ -50,7 +50,7 @@ Automating this can be a further scope of work.
 # Executing the code 
 `cd build`\
 `make`\
-To execute the low-resolution search in the map\
+To execute the low-resolution search in the map
 `./test_sbpl ../matlab/map8dir.cfg ../matlab/8dir.mprim`\
 >> plot_3Dpath('sol.txt','map8dir.cfg',0.025,8,1) in Matlab to visualise solution
 To execute the high-resolution search in the map
