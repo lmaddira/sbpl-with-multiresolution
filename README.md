@@ -52,10 +52,10 @@ Automating this can be a further scope of work.
 `make`\
 To execute the low-resolution search in the map\
 `./test_sbpl ../matlab/map8dir.cfg ../matlab/8dir.mprim`\
->> plot_3Dpath('sol.txt','map8dir.cfg',0.025,8,1) in Matlab to visualise solution\
+>> plot_3Dpath('sol.txt','map8dir.cfg',0.025,8,1) in Matlab to visualise solution
 To execute the high-resolution search in the map
-`./test_sbpl ../matlab/map16dir.cfg ../matlab/16dir.mprim`
+`./test_sbpl ../matlab/map16dir.cfg ../matlab/16dir.mprim`\
 >> plot_3Dpath('sol.txt','map16dir.cfg',0.025,16,2) in Matlab to visualise solution
 To execute a multi-resolution search
-`./test_sbpl ../matlab/map8dir.cfg ../matlab/8dir.mprim ../matlab/16dir.mprim`
+`./test_sbpl ../matlab/map8dir.cfg ../matlab/8dir.mprim ../matlab/16dir.mprim`\
 >> plot_3Dpath('sol.txt','map16dir.cfg',0.025,16,3) in Matlab to visualise solution
